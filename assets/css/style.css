@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: gainsboro;
+}
+header{
+    height: 15rem;
+    background-image: url(../img/fotos/banner_space_1366x520px.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+    overflow: hidden;
+
+}
+header h1{
+    font-size: 5rem;
+    color: aliceblue;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.60);
+    text-align: center;
+    padding-top: 5rem;
+}
+header .navegation{
+    width: 217px;
+    height: 30px;
+    float: right;
+    padding: 2%;
+    margin: -1%;
+}
+.navegation a{
+    padding-right: 5%;
+}
+div{
+    width: 100%;
+    margin: auto;
+}
+
+.service {
+    width: 70%;
+    margin: auto;
+}
+.service td{
+    width: 50%;
+    padding: 2em;
+}
+.service td h2{
+    font-size: 40px;
+    padding: 1.5rem;
+    padding-left: 0;
+    padding-top: 0;
+    color: rgb(15, 58, 83);
+}
+.service td p{
+    inline-size: 90%;
+    line-height: 1rem;
+    color: rgba(0, 0, 0, 0.658);
+
+}
+.service img{
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 0.5rem;
+
+}
+td{
+    vertical-align: middle;
+    text-align: justify;
+}
+    
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: peru;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.432);
+    text-align: center;
+}
